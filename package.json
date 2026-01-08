@@ -1,0 +1,35 @@
+{
+  "name": "photo-reducer",
+  "version": "1.0.0",
+  "description": "スマホの写真やスクショのファイルサイズをスリム化",
+  "type": "commonjs",
+  "main": "dist/cli.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "dev": "ts-node src/cli.ts",
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "dayjs": "^1.11.19",
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.3",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "bin": {
+    "photo-reducer": "bin/photo-reducer"
+  }
+}

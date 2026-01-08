@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.user.photo-reducer-1</string>
+
+  <key>Program</key>
+  <string>/bin/bash</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-l</string>
+    <string>-c</string>
+    <string>/Users/taroken/src/git/photo-reducer/bin/photo-reducer --source '/Users/taroken/pCloud Drive/Automatic Upload/Solana Mobile Inc. Seeker/DCIM/Camera' --output '/Users/taroken/pCloud Drive/My Pictures' --max-output-width 1500 --interval 60 --watch</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/taroken/src/git/photo-reducer</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/taroken/Library/Logs/photo-reducer-1.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/taroken/Library/Logs/photo-reducer-1-error.log</string>
+</dict>
+</plist>
+
+

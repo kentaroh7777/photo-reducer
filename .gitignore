@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+pnpm-lock.yaml
+.DS_Store
+.env
+.photo-reducer
+
+tests/source-imgs
+tests/reduced*
+tests/tmp*
