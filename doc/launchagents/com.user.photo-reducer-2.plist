@@ -13,7 +13,7 @@
     <string>/bin/bash</string>
     <string>-l</string>
     <string>-c</string>
-    <string>/Users/taroken/src/git/photo-reducer/bin/photo-reducer --source '/Users/taroken/pCloud Drive/Automatic Upload/Solana Mobile Inc. Seeker/Pictures/Screenshots' --output '/Users/taroken/pCloud Drive/My Pictures' --max-output-width 2000 --png-format webp --since 2026-1-7 --interval 60 --watch</string>
+    <string>/Users/taroken/src/git/photo-reducer/bin/photo-reducer --source '/Users/taroken/pCloud Drive/Automatic Upload/Solana Mobile Inc. Seeker/Pictures/Screenshots' --output '/Users/taroken/pCloud Drive/My Pictures' --max-output-width 2000 --png-format webp --interval 60 --watch</string>
   </array>
 
   <key>WorkingDirectory</key>
